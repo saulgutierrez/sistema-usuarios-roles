@@ -1,4 +1,8 @@
-
+<?php
+  // Recibir la informacion del controlador
+  $usuarios = ctrUsuarios::ctrMostrarUsuarios();
+  // var_dump($usuarios);
+?>
 <!DOCTYPE html>
 <html>
 <head>
